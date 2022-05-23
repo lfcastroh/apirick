@@ -17,8 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Route::get('/', function (GuzzleHttp\Client $client);
+Route::get('personaje/', 'App\Http\Controllers\personaje@guardarPersonaje');
 
-$client=
 
 

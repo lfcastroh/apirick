@@ -6,9 +6,6 @@ use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-
-    $baseUrl = env('API_ENDPOINT');
-
     /**
      * Register any application services.
      *

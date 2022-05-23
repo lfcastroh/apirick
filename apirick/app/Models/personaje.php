@@ -7,13 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class personaje extends Model
 {
+    use HasFactory;
 
     protected $fillable = [
         'id',
-        'name',
-        'species',
-        'gender',
+        'nombre',
+        'estado',
+        'especie',
+        'genero',
     ];
 
-    use HasFactory;
+    public $timestamps = false;
+
 }
