@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('personaje/', 'App\Http\Controllers\personaje@guardarPersonaje');
+Route::get('personajes/', 'App\Http\Controllers\Personajes@guardarPersonaje');
 
 
 
